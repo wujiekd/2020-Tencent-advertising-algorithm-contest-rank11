@@ -1,12 +1,12 @@
 ### 特征代码说明：
 #############################################################################################  
-|--Data_processing.py    	#数据预处理，合并数据集，提取标签，生成五折训练集和验证集  
-|--Word2vec.py		      	#提取用户点击序列，生成word2vec特征  
-|--Deepwalk.py		      	#围绕用户点击特征，构建图，生成deepwalk特征和deepwalk用户特征  
-|--target_encoding.py	  	#使用训练集五折构建目标编码  
-|--zip_file.ipynb			    #降低embedding矩阵精度，减小训练占用内存  
-|--split_feature.ipynb		#对以上产生的特征进行切割划分，保存为五折训练使用的h5py文件，加快训练读取速度  
-|--requirments.txt		    #所使用的依赖  
+|--Data_processing.py      #数据预处理，合并数据集，提取标签，生成五折训练集和验证集  
+|--Word2vec.py             #提取用户点击序列，生成word2vec特征  
+|--Deepwalk.py             #围绕用户点击特征，构建图，生成deepwalk特征和deepwalk用户特征  
+|--target_encoding.py      #使用训练集五折构建目标编码  
+|--zip_file.ipynb          #降低embedding矩阵精度，减小训练占用内存  
+|--split_feature.ipynb     #对以上产生的特征进行切割划分，保存为五折训练使用的h5py文件，加快训练读取速度  
+|--requirments.txt         #所使用的依赖  
 #############################################################################################  
 
 ### 额外说明：
