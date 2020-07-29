@@ -1,0 +1,20 @@
+#操作系统:macOS Catalina 10.15.4
+#Python的版本:3.7.6
+gensim
+scikit-learn==0.22.1
+lightgbm==2.3.1
+pandas==1.0.2
+numpy==1.18.1
+
+!pip install gensim
+!pip install ipywidgets==5.0.0
+!pip install keras==2.1.4
+!pip install fastText
+!pip install gensim
+!pip install keras==2.2.4
+!pip install gensim
+!pip install ipywidgets==5.0.0
+!pip uninstall numpy -y
+!pip install numpy==1.16.2
+!pip uninstall keras -y
+!pip install keras==2.2.4
